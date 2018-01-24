@@ -41,6 +41,7 @@
             this.Lloyd.TabIndex = 0;
             this.Lloyd.Text = "Lloyd";
             this.Lloyd.UseVisualStyleBackColor = true;
+            this.Lloyd.Click += new System.EventHandler(this.Lloyd_Click);
             // 
             // Lucinda
             // 
@@ -50,6 +51,7 @@
             this.Lucinda.TabIndex = 1;
             this.Lucinda.Text = "Lucinda";
             this.Lucinda.UseVisualStyleBackColor = true;
+            this.Lucinda.Click += new System.EventHandler(this.Lucinda_Click);
             // 
             // swap
             // 
@@ -59,6 +61,7 @@
             this.swap.TabIndex = 2;
             this.swap.Text = "Swap!";
             this.swap.UseVisualStyleBackColor = true;
+            this.swap.Click += new System.EventHandler(this.swap_Click);
             // 
             // Form1
             // 

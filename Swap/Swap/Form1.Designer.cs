@@ -28,12 +28,59 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.Lloyd = new System.Windows.Forms.Button();
+            this.Lucinda = new System.Windows.Forms.Button();
+            this.swap = new System.Windows.Forms.Button();
+            this.SuspendLayout();
+            // 
+            // Lloyd
+            // 
+            this.Lloyd.Location = new System.Drawing.Point(26, 12);
+            this.Lloyd.Name = "Lloyd";
+            this.Lloyd.Size = new System.Drawing.Size(90, 26);
+            this.Lloyd.TabIndex = 0;
+            this.Lloyd.Text = "Lloyd";
+            this.Lloyd.UseVisualStyleBackColor = true;
+            // 
+            // Lucinda
+            // 
+            this.Lucinda.Location = new System.Drawing.Point(26, 44);
+            this.Lucinda.Name = "Lucinda";
+            this.Lucinda.Size = new System.Drawing.Size(90, 23);
+            this.Lucinda.TabIndex = 1;
+            this.Lucinda.Text = "Lucinda";
+            this.Lucinda.UseVisualStyleBackColor = true;
+            // 
+            // swap
+            // 
+            this.swap.Location = new System.Drawing.Point(26, 73);
+            this.swap.Name = "swap";
+            this.swap.Size = new System.Drawing.Size(90, 23);
+            this.swap.TabIndex = 2;
+            this.swap.Text = "Swap!";
+            this.swap.UseVisualStyleBackColor = true;
+            // 
+            // Form1
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Text = "Form1";
+            this.ClientSize = new System.Drawing.Size(145, 110);
+            this.Controls.Add(this.swap);
+            this.Controls.Add(this.Lucinda);
+            this.Controls.Add(this.Lloyd);
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
+            this.Name = "Form1";
+            this.Text = "Swap";
+            this.ResumeLayout(false);
+
         }
 
         #endregion
+
+        private System.Windows.Forms.Button Lloyd;
+        private System.Windows.Forms.Button Lucinda;
+        private System.Windows.Forms.Button swap;
     }
 }
 
